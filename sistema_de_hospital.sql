@@ -29,7 +29,7 @@ insert into paciente (cpf, nomeCompleto, dataNascimento, telefone) values ("7488
 insert into medico (codigoCRM, nomeCompleto, especialidade) values ("000.001/RJ", "Gregory House", "Doenças Infecciosas e Nefrologia");
 insert into medico (codigoCRM, nomeCompleto, especialidade) values ("002.009/SP", "Drauzio Varella", "Oncologia");
 
-insert into consulta (dataConsulta, diagnostico, pacienteID, medicoID) values ("2026/03/10", "Autismo", 1, 1);
+insert into consulta (dataConsulta, diagnostico, pacienteID, medicoID) values ("2026/03/10", "Câncer Renal", 1, 2);
 
 select * from paciente;
 select * from medico;
