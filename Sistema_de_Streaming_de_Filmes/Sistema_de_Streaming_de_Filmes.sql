@@ -9,7 +9,7 @@ CREATE TABLE filme (
     titulo VARCHAR(254) NOT NULL,
     genero VARCHAR(100) NOT NULL,
     anoLancamento INT NOT NULL,
-    duracao varCHAR(5) NOT NULL
+    duracao CHAR(5) NOT NULL
 );
 
 CREATE TABLE ator (
