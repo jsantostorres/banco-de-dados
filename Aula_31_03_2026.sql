@@ -43,3 +43,4 @@ SELECT aluno.nome, curso.nome FROM aluno INNER JOIN curso ON aluno.cursoID = cur
 SELECT aluno.*, curso.* FROM aluno INNER JOIN curso ON aluno.cursoID = curso.id;
 
 SELECT aluno.nome, curso.nome AS curso FROM aluno LEFT JOIN curso ON aluno.cursoID = curso.id;
+SELECT curso.nome, COUNT(aluno.id) AS total_alunos FROM aluno INNER JOIN curso ON aluno.cursoID = curso.id GROUP BY curso.nome;
